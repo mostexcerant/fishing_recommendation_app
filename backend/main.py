@@ -84,7 +84,7 @@ def license_info(req: LicenseRequest):
 def gear(req: GearRequest):
     # Replace this with real product DB + scoring & prioritization logic
     catalog = [
-        {"id":"rod001","name":"Falcon Strike 7'2" MH","type":"rod","best_for":["bass","pike"],"conditions":["freshwater"],"priority":1,"price":199.0,"url":"https://example.com/products/rod001"},
+        {"id":"rod001","name":"Falcon Strike 7'2 MH","type":"rod","best_for":["bass","pike"],"conditions":["freshwater"],"priority":1,"price":199.0,"url":"https://example.com/products/rod001"},
         {"id":"rod002","name":"Falcon Surf 10' Medium","type":"rod","best_for":["striped bass"],"conditions":["saltwater","surf"],"priority":1,"price":229.0,"url":"https://example.com/products/rod002"},
         {"id":"reel001","name":"Stealth 3000","type":"reel","best_for":["bass","striped bass"],"conditions":["freshwater","saltwater"],"priority":1,"price":129.0,"url":"https://example.com/products/reel001"}
     ]
