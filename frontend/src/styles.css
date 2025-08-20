@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background:#f6f9fc; color:#0b1226; margin:0; padding:20px; }
+.app { max-width:800px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+.form { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.form input { padding:8px; flex:1 1 200px; }
+.form button { padding:8px 16px; }
+.result pre { background:#f3f6fa; padding:12px; border-radius:6px; }
